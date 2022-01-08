@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testproject.AggregatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-01-08T11:02:13" hostname="LAPTOP-D7B8TTR3" time="0.094">
+  <properties/>
+  <testcase name="testInitialState" classname="testproject.AggregatorTest" time="0.094"/>
+  <testcase name="testMultipleAdditions" classname="testproject.AggregatorTest" time="0.0"/>
+  <testcase name="testSingleAddition" classname="testproject.AggregatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

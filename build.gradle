@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'jacoco'
+    id 'pmd'
 }
 
 
@@ -9,10 +10,15 @@ repositories {
 }
 
 dependencies {
-    testCompile 'junit:junit:4.12'
-    testCompile("org.assertj:assertj-core:3.11.1")
+    testImplementation'junit:junit:4.12'
+    testImplementation ("org.assertj:assertj-core:3.11.1")
 }
 
 test {
     outputs.upToDateWhen { false }
+}
+
+pmd {
+    toolVersion = "6.8.0"
+    ignoreFailures = true
 }
